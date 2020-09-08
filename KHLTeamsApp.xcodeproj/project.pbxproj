@@ -3,29 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F1180C1860D438661EACB18 /* Pods_KHLTeamsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20981EA249B5E499EC840F8 /* Pods_KHLTeamsApp.framework */; };
+		FA292A312505C2790046C50B /* PlayersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA292A302505C2790046C50B /* PlayersModel.swift */; };
+		FA292A332505C8A10046C50B /* TeamPlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA292A322505C8A10046C50B /* TeamPlayersViewController.swift */; };
+		FA292A352505C8E20046C50B /* TeamPlayersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA292A342505C8E20046C50B /* TeamPlayersCell.swift */; };
+		FAD8AB28250504B100E4CF74 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8AB27250504B100E4CF74 /* ImageView.swift */; };
 		FAE1C7782503A1F600398681 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1C7772503A1F600398681 /* AppDelegate.swift */; };
 		FAE1C77A2503A1F600398681 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1C7792503A1F600398681 /* SceneDelegate.swift */; };
-		FAE1C77C2503A1F600398681 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1C77B2503A1F600398681 /* ViewController.swift */; };
+		FAE1C77C2503A1F600398681 /* TeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1C77B2503A1F600398681 /* TeamsViewController.swift */; };
 		FAE1C77F2503A1F600398681 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE1C77D2503A1F600398681 /* Main.storyboard */; };
 		FAE1C7822503A1F600398681 /* KHLTeamsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAE1C7802503A1F600398681 /* KHLTeamsApp.xcdatamodeld */; };
 		FAE1C7842503A1F800398681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE1C7832503A1F800398681 /* Assets.xcassets */; };
 		FAE1C7872503A1F800398681 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE1C7852503A1F800398681 /* LaunchScreen.storyboard */; };
+		FAE1C7912503FC9600398681 /* TeamsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1C7902503FC9600398681 /* TeamsModel.swift */; };
+		FAE1C79325041CC500398681 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1C79225041CC500398681 /* NetworkManager.swift */; };
+		FAE1C79525041F9D00398681 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1C79425041F9D00398681 /* ImageManager.swift */; };
+		FAE1C797250423FE00398681 /* TeamsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1C796250423FE00398681 /* TeamsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C15E39D444F12DC5BF96CA3 /* Pods-KHLTeamsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KHLTeamsApp.debug.xcconfig"; path = "Target Support Files/Pods-KHLTeamsApp/Pods-KHLTeamsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9D477470B15BF19F1B38C352 /* Pods-KHLTeamsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KHLTeamsApp.release.xcconfig"; path = "Target Support Files/Pods-KHLTeamsApp/Pods-KHLTeamsApp.release.xcconfig"; sourceTree = "<group>"; };
+		B20981EA249B5E499EC840F8 /* Pods_KHLTeamsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KHLTeamsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA292A302505C2790046C50B /* PlayersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersModel.swift; sourceTree = "<group>"; };
+		FA292A322505C8A10046C50B /* TeamPlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamPlayersViewController.swift; sourceTree = "<group>"; };
+		FA292A342505C8E20046C50B /* TeamPlayersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamPlayersCell.swift; sourceTree = "<group>"; };
+		FAD8AB27250504B100E4CF74 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		FAE1C7742503A1F600398681 /* KHLTeamsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KHLTeamsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE1C7772503A1F600398681 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAE1C7792503A1F600398681 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAE1C77B2503A1F600398681 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAE1C77B2503A1F600398681 /* TeamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsViewController.swift; sourceTree = "<group>"; };
 		FAE1C77E2503A1F600398681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAE1C7812503A1F600398681 /* KHLTeamsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KHLTeamsApp.xcdatamodel; sourceTree = "<group>"; };
 		FAE1C7832503A1F800398681 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAE1C7862503A1F800398681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAE1C7882503A1F800398681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE1C7902503FC9600398681 /* TeamsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsModel.swift; sourceTree = "<group>"; };
+		FAE1C79225041CC500398681 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FAE1C79425041F9D00398681 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		FAE1C796250423FE00398681 /* TeamsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F1180C1860D438661EACB18 /* Pods_KHLTeamsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D96212799E2EC20931EC915 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B20981EA249B5E499EC840F8 /* Pods_KHLTeamsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24B8140E43C30D349E51E69D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C15E39D444F12DC5BF96CA3 /* Pods-KHLTeamsApp.debug.xcconfig */,
+				9D477470B15BF19F1B38C352 /* Pods-KHLTeamsApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FAE1C76B2503A1F600398681 = {
 			isa = PBXGroup;
 			children = (
 				FAE1C7762503A1F600398681 /* KHLTeamsApp */,
 				FAE1C7752503A1F600398681 /* Products */,
+				24B8140E43C30D349E51E69D /* Pods */,
+				1D96212799E2EC20931EC915 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +98,72 @@
 		FAE1C7762503A1F600398681 /* KHLTeamsApp */ = {
 			isa = PBXGroup;
 			children = (
-				FAE1C7772503A1F600398681 /* AppDelegate.swift */,
-				FAE1C7792503A1F600398681 /* SceneDelegate.swift */,
-				FAE1C77B2503A1F600398681 /* ViewController.swift */,
-				FAE1C77D2503A1F600398681 /* Main.storyboard */,
-				FAE1C7832503A1F800398681 /* Assets.xcassets */,
-				FAE1C7852503A1F800398681 /* LaunchScreen.storyboard */,
+				FAE1C79D2504451F00398681 /* Models */,
+				FAE1C79C2504451800398681 /* Views */,
+				FAE1C79B250444FE00398681 /* ViewControllers */,
+				FAE1C79A2504449300398681 /* Services */,
+				FAE1C7992504445E00398681 /* Storyboards */,
+				FAE1C7982504444000398681 /* Support files */,
 				FAE1C7882503A1F800398681 /* Info.plist */,
 				FAE1C7802503A1F600398681 /* KHLTeamsApp.xcdatamodeld */,
 			);
 			path = KHLTeamsApp;
+			sourceTree = "<group>";
+		};
+		FAE1C7982504444000398681 /* Support files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE1C7772503A1F600398681 /* AppDelegate.swift */,
+				FAE1C7792503A1F600398681 /* SceneDelegate.swift */,
+				FAE1C7832503A1F800398681 /* Assets.xcassets */,
+			);
+			path = "Support files";
+			sourceTree = "<group>";
+		};
+		FAE1C7992504445E00398681 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FAE1C77D2503A1F600398681 /* Main.storyboard */,
+				FAE1C7852503A1F800398681 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FAE1C79A2504449300398681 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FAE1C79225041CC500398681 /* NetworkManager.swift */,
+				FAE1C79425041F9D00398681 /* ImageManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FAE1C79B250444FE00398681 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAE1C77B2503A1F600398681 /* TeamsViewController.swift */,
+				FA292A322505C8A10046C50B /* TeamPlayersViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FAE1C79C2504451800398681 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAD8AB27250504B100E4CF74 /* ImageView.swift */,
+				FAE1C796250423FE00398681 /* TeamsCell.swift */,
+				FA292A342505C8E20046C50B /* TeamPlayersCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FAE1C79D2504451F00398681 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAE1C7902503FC9600398681 /* TeamsModel.swift */,
+				FA292A302505C2790046C50B /* PlayersModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAE1C78B2503A1F800398681 /* Build configuration list for PBXNativeTarget "KHLTeamsApp" */;
 			buildPhases = (
+				156B908D43AD2F05FD47C631 /* [CP] Check Pods Manifest.lock */,
 				FAE1C7702503A1F600398681 /* Sources */,
 				FAE1C7712503A1F600398681 /* Frameworks */,
 				FAE1C7722503A1F600398681 /* Resources */,
+				BFBB7D759EA1FE836D969935 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,13 +234,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		156B908D43AD2F05FD47C631 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KHLTeamsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFBB7D759EA1FE836D969935 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KHLTeamsApp/Pods-KHLTeamsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KHLTeamsApp/Pods-KHLTeamsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KHLTeamsApp/Pods-KHLTeamsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FAE1C7702503A1F600398681 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE1C77C2503A1F600398681 /* ViewController.swift in Sources */,
+				FAE1C79325041CC500398681 /* NetworkManager.swift in Sources */,
+				FAE1C77C2503A1F600398681 /* TeamsViewController.swift in Sources */,
+				FAE1C79525041F9D00398681 /* ImageManager.swift in Sources */,
+				FA292A332505C8A10046C50B /* TeamPlayersViewController.swift in Sources */,
+				FAE1C7912503FC9600398681 /* TeamsModel.swift in Sources */,
+				FA292A312505C2790046C50B /* PlayersModel.swift in Sources */,
+				FAE1C797250423FE00398681 /* TeamsCell.swift in Sources */,
+				FA292A352505C8E20046C50B /* TeamPlayersCell.swift in Sources */,
 				FAE1C7782503A1F600398681 /* AppDelegate.swift in Sources */,
+				FAD8AB28250504B100E4CF74 /* ImageView.swift in Sources */,
 				FAE1C7822503A1F600398681 /* KHLTeamsApp.xcdatamodeld in Sources */,
 				FAE1C77A2503A1F600398681 /* SceneDelegate.swift in Sources */,
 			);
@@ -286,6 +434,7 @@
 		};
 		FAE1C78C2503A1F800398681 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C15E39D444F12DC5BF96CA3 /* Pods-KHLTeamsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +453,7 @@
 		};
 		FAE1C78D2503A1F800398681 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D477470B15BF19F1B38C352 /* Pods-KHLTeamsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
